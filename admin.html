@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/admin.css">
+    <!-- <link rel="stylesheet" href="css/style.css"> -->
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <title>Admin</title>
+</head>
+<body>
+    <div class="header">
+        <div class="logo">
+            <h1><a href="index.html">SHOPING CART</a></h1>
+        </div>
+            <div class="user">
+                <ul class="uluser">
+                    <li>
+                        <a href="" class="user_name">Admin <i class="fa-solid fa-user-tie"></i></a>
+                </ul>
+            </div>
+    </div>
+
+
+    <form action="">
+        <h2>Admin Password</h2>
+        <div class="add-data">
+            <input type="password" minlength="8" placeholder="Password" class="password-admin">
+            <div class="add-data-click">
+                <button type="submit" class="submit-login"><span class="ss">Submit</span></button>
+                <div class="label"><label for="" class="labb"></label></div>
+                forget<a href="#"> Password?</a>
+            </div>
+        </div>
+    </form>
+
+
+
+
+
+    <div class="cotnenar">
+        <div class="create-product">
+            <div class="img-create">
+                <h4>Img Product</h4>
+                <label  class="label" for="imeg-file"><i class="fa-light fa-plus"></i></label>
+                <input type="file" onchange="change_img()" accept="image/png,image/jpg,image/jpeg," id="imeg-file">
+            </div>
+            <div class="inputs">
+                <input type="text" class="title" placeholder="Product Name">
+                <textarea name="" id="" cols="30" rows="5" class="textarea" placeholder="Discraption"></textarea>
+                <input type="text" class="color" placeholder="Color">
+                <input type="number" min="1" class="amount" placeholder="Amount">
+            </div>
+            <div class="btn-add">
+                <button class="add-product">Add Product</button>
+            </div>
+        </div>
+    </div>
+        <script src="js/admin.js"></script>
+</body>
+</html>
